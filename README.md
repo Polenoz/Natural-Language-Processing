@@ -1,3 +1,5 @@
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Polenoz/Natural-Language-Processing/blob/main/Nlp_Projekt.ipynb)
+
 # NLP Classification Project
 
 In this project, a text classification model is built using natural language processing techniques. The goal is to classify text data based on their content.
@@ -6,38 +8,35 @@ In this project, a text classification model is built using natural language pro
 
 The project uses the file:
 
-* Yelp.csv
+- Yelp.csv
 
-Make sure the file is in the same directory as the notebook.
+The dataset is loaded directly from the GitHub repository, so no manual upload is needed when the notebook is opened in Google Colab.
+
+## Required libraries
+
+- pandas
+- numpy
+- scikit-learn
+- jupyter
 
 ## How to run
 
-You can run the notebook in Google Colab:
+- Click the badge at the top
+- Open the notebook in Colab
+- Run all cells
 
-* Open the notebook
-* Upload the dataset file
-* Run all cells
+The dataset is loaded automatically.
 
-You can also run it locally:
+## What is done
 
-* Install the required libraries (pandas, numpy, scikit-learn)
-* Open the notebook with Jupyter
-* Run all cells
-
-## What is done in this notebook
-
-* The dataset is loaded and explored
-* Text data is processed and cleaned
-* Text is converted into numerical features
-* A classification model is trained
-* Predictions are made
-* The results are evaluated
+- Text data is loaded and explored
+- Text is cleaned and processed
+- Text is converted into numerical features
+- A classification model is trained
+- Predictions are made
+- Results are evaluated
 
 ## Evaluation
 
-The model is evaluated using:
-
-* Classification report
-* Precision and recall
-
-These metrics show how well the model performs.
+- Classification report
+- Precision and recall
